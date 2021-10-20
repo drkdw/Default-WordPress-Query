@@ -50,5 +50,5 @@ if ( $my_post_type->have_posts() ) :
 	wp_reset_postdata();
 
 else :
-	_e( 'Woops! Nothing found!.', 'hoolite' );
+	_e( 'Woops! Nothing found!', 'hoolite' );
 endif;
